@@ -1,0 +1,145 @@
+{
+ "active": true, 
+ "items": [
+  {
+   "enabled": true, 
+   "type": "video", 
+   "name": "", 
+   "settings": {
+    "random": true, 
+    "count": 1, 
+    "vtype": "courtesy", 
+    "play3D": false
+   }
+  }, 
+  {
+   "enabled": true, 
+   "type": "video", 
+   "name": "", 
+   "settings": {
+    "random": true, 
+    "count": 1, 
+    "vtype": "theater.intro", 
+    "play3D": false
+   }
+  }, 
+  {
+   "enabled": true, 
+   "type": "video", 
+   "name": "", 
+   "settings": {
+    "random": true, 
+    "count": 1, 
+    "vtype": "trailers.intro", 
+    "play3D": false
+   }
+  }, 
+  {
+   "enabled": true, 
+   "type": "trailer", 
+   "name": "", 
+   "settings": {}
+  }, 
+  {
+   "enabled": true, 
+   "type": "video", 
+   "name": "", 
+   "settings": {
+    "random": true, 
+    "count": 1, 
+    "vtype": "trailers.outro", 
+    "play3D": false
+   }
+  }, 
+  {
+   "enabled": true, 
+   "type": "audioformat", 
+   "name": "", 
+   "settings": {
+    "play3D": false
+   }
+  }, 
+  {
+   "enabled": true, 
+   "type": "feature", 
+   "name": "", 
+   "settings": {}
+  }, 
+  {
+   "enabled": true, 
+   "type": "command", 
+   "name": "", 
+   "settings": {
+    "command": "skip", 
+    "condition": "feature.queue=empty", 
+    "arg": 6
+   }
+  }, 
+  {
+   "enabled": true, 
+   "type": "video", 
+   "name": "", 
+   "settings": {
+    "random": true, 
+    "count": 1, 
+    "vtype": "intermission", 
+    "play3D": false
+   }
+  }, 
+  {
+   "enabled": true, 
+   "type": "trivia", 
+   "name": "", 
+   "settings": {}
+  }, 
+  {
+   "enabled": true, 
+   "type": "audioformat", 
+   "name": "", 
+   "settings": {
+    "play3D": false
+   }
+  }, 
+  {
+   "enabled": true, 
+   "type": "feature", 
+   "name": "", 
+   "settings": {}
+  }, 
+  {
+   "enabled": true, 
+   "type": "command", 
+   "name": "", 
+   "settings": {
+    "command": "back", 
+    "condition": "feature.queue=full", 
+    "arg": 4
+   }
+  }, 
+  {
+   "enabled": true, 
+   "type": "video", 
+   "name": "", 
+   "settings": {
+    "random": true, 
+    "count": 1, 
+    "vtype": "feature.outro", 
+    "play3D": false
+   }
+  }
+ ], 
+ "version": 2, 
+ "settings": {}, 
+ "attributes": {
+  "ratings": [], 
+  "genres": [], 
+  "tags": [], 
+  "dates": [], 
+  "times": [], 
+  "directors": [], 
+  "actors": [], 
+  "studios": [], 
+  "year": [], 
+  "type": null
+ }
+}
